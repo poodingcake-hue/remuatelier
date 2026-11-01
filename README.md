@@ -8,7 +8,7 @@
 ```bash
 npm install
 npm run dev     # http://localhost:3000
-npm run build && npm start
+npm run build   # 정적 결과물이 out/ 폴더에 생겨요
 ```
 
 Node 20 이상, Next.js 15 · React 19 · three.js(@react-three/fiber, drei).
