@@ -14,6 +14,14 @@ npm run build && npm start
 Node 20 이상, Next.js 15 · React 19 · three.js(@react-three/fiber, drei).
 TypeScript는 5.x로 고정되어 있어요 (Next 15가 TS 7을 아직 읽지 못함).
 
+## 배포 (GitHub Pages)
+
+`main`에 푸시하면 `.github/workflows/pages.yml`이 정적 사이트를 빌드해 올립니다.
+주소: https://poodingcake-hue.github.io/remuatelier/
+
+처음 한 번만 저장소 Settings → Pages → Source를 **GitHub Actions**로 바꿔 주세요.
+로컬에서 같은 결과를 보려면 `PAGES_BASE_PATH=/remuatelier npm run build` 후 `out/` 폴더를 확인합니다.
+
 ## 페이지
 
 | 경로 | 내용 |
